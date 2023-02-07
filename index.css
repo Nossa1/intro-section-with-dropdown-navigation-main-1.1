@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+    
+}
+
+.mainDiv{
+    min-width: 398px;
+    height: 1300px;
+    background-color: white;
+    
+}
+.headerDiv{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.myLogo{
+    width: fit-content;
+    margin: 20px;
+}
+.myMenu{   
+    height: fit-content;
+    margin: 20px;
+    right: 20px;
+    position: absolute;
+}
+.myMenu button{
+    border: none;
+    cursor: pointer;
+}
+.mainPhotoDiv img{
+    width: 100%;
+}
+.bodyDiv{
+    margin-top: 30px;
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+.bodyDiv .mobileTitle, p{
+    text-align: center;
+    
+}
+.bodyDiv .mobileTitle{
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+.bodyDiv .mobilePara{
+    padding: 0 10px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.myBtn{
+    position: relative;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.myBtn button{
+   background-color: black;
+   color: white;
+   min-width: 100%;
+   height: 50px;
+   border-radius: 15px;
+   font-size: 16px;
+   cursor: pointer;
+}
+.myBtn :hover{
+background-color: white;
+color:  black;
+}
+.bottomDiv{
+    margin-top: 40px;
+    max-width: 380px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.bottomDiv img{
+    width: 20%;
+   padding: 0 15px 0 0;
+}
+.sideDiv{    
+    min-width: 65%;
+    min-height: 100%;
+    background-color: white;
+    position: fixed;  
+   right: 0;
+   top: 0;
+   flex-direction: column;
+   display: none;
+}
+.closeIcon{
+    margin: 20px;
+    float: right;
+}
+.closeIcon button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.menuList{
+    position: absolute;
+    margin: 80px 20px;
+    min-width: 100%;
+    
+}
+.menuList ul{
+    list-style: none;
+    line-height: 45px;
+}
+.menuList ul li{
+    font-size: 22px;
+    color: hsl(0, 0%, 41%);
+}
+.featuresDiv{
+    margin: 20px 30px;
+    display: none;
+}
+.companyDiv{
+    margin: 20px 30px;
+    display: none;
+}
+.loginDiv{
+    margin-top: 30px;
+    max-width: 80%;
+
+}
+.loginDiv h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.loginDiv button{
+   width: 100%;
+    padding: 15px 0;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid;
+    font-size: 18px;
+    cursor: pointer; 
+}
+.deskPhoto{
+    display: none;
+}
+.DeskTitle{
+    display: none;
+}
+.bodyDiv .deskPara{
+    display: none;
+}
+.deskBtn{
+    display: none;
+}
+.DeskbottomDiv{
+    display: none
+}
+@media screen and (min-width: 857px) {
+    .mainDiv{
+        min-width: 1410px;
+    }
+    .loginDiv{
+        min-width: 10%;
+        float: right;
+    }
+    .myMenu button{
+        display: none;
+    }
+    .sideDiv{    
+        min-width: 85%;
+        max-width: 95%;
+        min-height: fit-content;
+       position: absolute;
+       display: block;
+    }
+    .closeIcon{
+        display: none;
+    }
+    .menuList{
+        
+        position: absolute;
+        margin: 10px 0px;
+    }
+    .menuList ul{
+        
+        display: flex;
+    }
+    .loginDiv{
+        
+        display: flex;
+        position: absolute;
+        margin-top: 0px;
+        right: 0;
+        top: 0;
+        width: 30%;
+    }
+    .loginDiv h3{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: auto;
+    }
+    .loginDiv button{
+        max-width: 50%;
+        position: absolute;
+        right: 10px;
+    }
+    .mobilePhoto{
+        display: none;
+    }
+    .deskPhoto{
+        display:  block;
+    }
+    .featuresDiv{
+        border: 2px solid;
+        margin-top: 40px;
+        position: absolute;
+        background-color: white;
+        margin-left: 0px;
+    }
+    .featuresDiv ul{
+        display: block;
+        
+    }
+    .companyDiv{
+        border: 2px solid;
+        margin-top: 40px;
+        position: absolute;
+        background-color: white;
+        margin-left: 150px;
+    }
+    .companyDiv ul{
+        display: block;
+    }
+    .bodyMob{
+        
+        height: 1000px;
+    }
+    .bodyMob img{
+        max-width: 40%;
+        float: right;
+    }
+   .mobileTitle{
+    display: none;
+   }
+   .DeskTitle{
+    display: block;
+   }
+   .bodyDiv{
+       
+       height: 800px;
+        max-width: 45%;
+        padding-left: 15%;
+        padding-top: 15%;    
+   }
+   .bodyDiv h1{
+    font-size: 80px;
+    
+    margin-bottom: 100px;
+   }
+   .bodyDiv .deskPara{
+    display: block;
+    text-align: left;
+    
+    max-width: 680px;
+    font-size: 26px;
+    }
+    .bodyDiv .mobilePara{
+        display: none;
+    }
+    .myBtn{
+        display: none;
+    }
+    .bottomDiv{
+     display: none;
+    }
+    .deskBtn{
+        display: block;
+        margin-top: 100px;
+        background-color: black;
+        color: white;
+        min-width: 20%;
+        height: 60px;
+        border-radius: 15px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .DeskbottomDiv{
+        display: block;
+        
+        float: left;
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 300px;
+    }
+    .DeskbottomDiv img{
+        float: left;
+        margin: 0 50px;
+    }
+ 
+}

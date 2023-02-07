@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500&family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Inter:wght@100;200;400;700&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@300;600&family=Manrope:wght@500;700&family=Open+Sans&family=Outfit:wght@200;500&family=Overpass:wght@200;300;400;500&family=Poppins:wght@400;600&family=Red+Hat+Display:ital,wght@0,400;0,500;0,900;1,300&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@500;700&family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Inter:wght@100;200;400;700&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@300;600&family=Manrope:wght@500;700&family=Open+Sans&family=Outfit:wght@200;500&family=Overpass:wght@200;300;400;500&family=Poppins:wght@400;600&family=Red+Hat+Display:ital,wght@0,400;0,500;0,900;1,300&display=swap" rel="stylesheet">
+
+</head>
+
+
+    <link rel="stylesheet" href="index.css">
+<body>
+
+
+
+    <div id="mainDiv" class="mainDiv">
+
+
+        <div class="headerDiv">
+            <div class="myLogo">
+                <picture>
+                    <img src="logo.svg">
+                </picture>
+            </div>
+            <div class="myMenu">
+                <button onclick="showMenu()">
+                <picture>
+                    <img src="icon-menu.svg">
+                </picture>
+                </button>
+            </div>
+        </div>
+
+
+    
+        <div class="bodyMob">
+            <div class="mainPhotoDiv">
+                <picture>
+                    <img class="mobilePhoto" src="image-hero-mobile.png">
+                    <img class="deskPhoto" src="image-hero-desktop.png">
+                </picture>
+            </div>
+
+            <div class="bodyDiv">
+                <h1 class="mobileTitle">Make remote work</h1>
+                <h1 class="DeskTitle">Make<br> remote work</h1>
+                <p class="mobilePara">Get your team in sync, no matter your location. Streamling processes, create team rituals, and watch productivity soar.</p>
+                <p class="deskPara">Get your team in sync, no matter your location. Streamling processes, create team rituals, and watch productivity soar.</p>
+                <button class="deskBtn">Learn more</button>
+                <div class="DeskbottomDiv">
+                    <picture>
+                        <img src="client-databiz.svg">
+                        <img src="client-audiophile.svg">
+                        <img src="client-meet.svg">
+                        <img src="client-maker.svg">
+                    </picture>
+                </div>
+            </div>
+            <div id="myButton" class="myBtn"> 
+                <button>Learn more</button>
+                
+            </div> 
+        </div>
+
+
+
+        <footer> 
+        <div class="bottomDiv">
+            <picture>
+                <img src="client-databiz.svg">
+                <img src="client-audiophile.svg">
+                <img src="client-meet.svg">
+                <img src="client-maker.svg">
+            </picture>
+        </div>
+        
+    </footer> 
+    </div>
+
+
+
+    <div id="sideDiv" class="sideDiv">
+        <div class="closeIcon">
+            <button onclick="hideMenu()">
+                <picture>
+                    <img src="icon-close-menu.svg">
+                </picture>
+            </button>
+        </div>
+        
+        <div class="menuList">
+            <ul>
+                <li id="features" onclick="showFeatures()">Features &nbsp <img class="arrowDown" id="arrowDown" src="icon-arrow-down.svg"></li>
+                <div  id="featuresDiv" class="featuresDiv">
+                <ul>
+                    <li><img src="icon-todo.svg">&nbsp Todo List</li>
+                    <li><img src="icon-calendar.svg">&nbsp Calendar</li>
+                    <li><img src="icon-reminders.svg">&nbsp Reminders</li>
+                    <li><img src="icon-planning.svg">&nbsp Planning</li>                    
+                </ul>
+                </div>
+
+                <li id="company" onclick="showCompany()"> &nbsp &nbsp Company  &nbsp<img class="arrowDown2" id="arrowDown2" src="icon-arrow-down.svg"></li>
+                <div id="companyDiv" class="companyDiv">
+                    <ul>
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Blog</li>
+                    </ul>
+
+                </div>
+                <li> &nbsp &nbsp Careers &nbsp &nbsp </li>
+                <li> &nbsp &nbsp About &nbsp &nbsp </li>
+            </ul>
+            <div class="loginDiv">
+                
+                <h3>Login</h3>
+                
+                <button>Register</button>
+            
+            </div>
+        </div>
+    <div >
+
+
+        
+   
+
+    </div>    
+        
+    </div>
+
+  
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
